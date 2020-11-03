@@ -53,5 +53,46 @@ We will evaluate you on your ability to solve the problem defined in the require
 ### Help
 If you have any questions regarding requirements, do not hesitate to email your contact at theScore for clarification.
 
-### Installation and running this solution
-... TODO
+### Installation and running this solution		
+
+- Clone this repository
+`git clone https://github.com/admurray/nfl_rushing.git`
+- Change directory into the cloned directory
+`cd nfl_rushing`
+- Run docker compose 
+`docker-compose up`
+
+*Unfortunately the docker-compose step takes some time, this is something that is a TODO and can be improved by using prebuilt Django/NodeJS images.*
+
+#### General Information
+
+*Technologies used*
+- Python 3+ (Django 3.0.7)
+- React
+- SQL (SQLite)
+- Docker/Docker-compose
+- Supervisor
+
+Landing page for the application : http://127.0.0.1:3000
+
+It may take a few seconds to start up the first time.
+*Note:* Please make sure you do not have any application running on port 3000 or change the port mapping in the docker-compose.yml to something more convinient, if your service cannot be taken offline.
+
+
+#### Uploading the data
+The landing page contains all the data from the rushing.json file. This data was uploaded into the sqlite database via the web application, by navigating to the link: http://127.0.0.1/rushingplayers. 
+This should not be required, however may be useful if more data is to be uploaded. 
+
+#### Searching via names
+
+On the landing page of the application, you can search for players using their name or a part of their name, using the search bar.
+
+#### Sorting the fields
+
+You sort in ascending and descending order for the fields `yrd`, `lng` and `td`. Clicking on the button flips the sort order. This is true with all the sorting.
+
+#### Downloding the CSV
+Once you have the searched data sorted, you can download this using the Downloas CSV button.
+
+
+##### Please feel free to report any issues to - adityamurray at yahoo.com
