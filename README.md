@@ -62,7 +62,9 @@ If you have any questions regarding requirements, do not hesitate to email your 
 - Run docker compose 
 `docker-compose up`
 
-*Unfortunately the docker-compose step takes some time, this is something that is a TODO and can be improved by using prebuilt Django/NodeJS images.*
+*Unfortunately the docker-compose step takes some time, this is something that is
+a TODO and can be improved by using prebuilt Django/NodeJS images. NodeJS
+ installation takes up a fair amount of time*
 
 #### General Information
 
