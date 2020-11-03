@@ -78,15 +78,19 @@ a TODO and can be improved by using prebuilt Django/NodeJS images. NodeJS
 Landing page for the application : http://127.0.0.1:3000
 
 It may take a few seconds to start up the first time.
-*Note:* Please make sure you do not have any application running on port 3000 or change the port mapping in the docker-compose.yml to something more convinient, if your service cannot be taken offline.
+*Note:* Please make sure you do not have any application running on port 3000
+or change the port mapping in the docker-compose.yml to something more
+convenient, if your service cannot be taken offline.
 
 
 #### Uploading the data
-The landing page contains all the data from the rushing.json file. This data was uploaded into the sqlite database via the web application, by navigating to the link: http://127.0.0.1/rushingplayers. 
-This should not be required, however may be useful if more data is to be uploaded. 
+The landing page contains all the data from the rushing.json file. This data was
+uploaded into the sqlite database via the web application, by navigating to the
+link: http://127.0.0.1:3000/rushingplayers.
+This should not be required, however may be useful if more data is to be uploaded.
 
 #### Searching via names
-On the landing page of the application, you can search for players using their 
+On the landing page of the application, you can search for players using their
 names or a part of their name, using the searchbar.
 
 #### Sorting the fields
