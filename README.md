@@ -86,15 +86,18 @@ The landing page contains all the data from the rushing.json file. This data was
 This should not be required, however may be useful if more data is to be uploaded. 
 
 #### Searching via names
-
-On the landing page of the application, you can search for players using their name or a part of their name, using the search bar.
+On the landing page of the application, you can search for players using their 
+names or a part of their name, using the searchbar.
 
 #### Sorting the fields
-
-You sort in ascending and descending order for the fields `yrd`, `lng` and `td`. Clicking on the button flips the sort order. This is true with all the sorting.
+You can sort in ascending and descending order for the fields `yrd`, `lng` and
+`td`. Clicking on the button repeatedly flips the sort order. This is true with
+all the sorting fields.
 
 #### Downloding the CSV
-Once you have the searched data sorted, you can download this using the Downloas CSV button.
+Once you have the searched data,  sorted it, you can download this data in
+csv format using the Download CSV button. This works with the unsorted data
+as well.
 
 
 ##### Please feel free to report any issues to - adityamurray at yahoo.com
